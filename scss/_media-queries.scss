@@ -1,0 +1,28 @@
+/******************************************/
+/*=========     MEDIA-QUERIES    =========*/
+/******************************************/
+
+// version XS
+@media (max-width: 768px) {
+   .footer-text, .redes {
+      text-align: center;
+   }
+   .redes {
+      margin-bottom: 50px;
+      margin-top: 10px !important;
+   }
+}
+
+// version MD
+@media (min-width: 768px) {
+   .banner-text {
+      text-align: left;
+   }
+}
+
+//version LG
+@media (min-width: 1170px) {
+   .spots-box {
+      height: 390px;
+   }
+}

@@ -1,0 +1,373 @@
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+
+.navbar-default {
+   background-color: $main-color;
+   border: none;
+   position: relative;
+   margin-bottom: 0;
+}
+
+.logo_surf img {
+   height: 100px;
+   float: left;
+   margin-top: 25px;
+   margin-bottom: 20px;
+   transition: 250ms;
+   opacity: 1;
+}
+
+.logo_surf:hover img {
+   opacity: 0.25;
+}
+
+.navbar-right {
+   margin-top: 50px;
+}
+
+.navbar-toggle {
+   border: none;
+   background-color: $main-color;
+   color: #fff;
+   font-size: 15px;
+}
+
+.navbar-collapse {
+   border-color: white;
+   background-color: $main-color;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: #fff !important;
+   text-transform: uppercase;
+   font-family: $second-font;
+   font-weight: 300;
+   font-size: 12px;
+   letter-spacing: 1px;
+   &:hover {
+      color: $comp-color !important;
+   }
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:$main-color;
+}
+
+.navbar-default .navbar-toggle {
+   margin-top: 60px;
+}
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+
+#banner {
+   background-image: url(../images/banner_surf.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   padding: 150px 0 150px;
+   margin-top: -1px;
+
+   h1 {
+      font-size: 60px;
+      line-height: 58px;
+      font-family: $second-font;
+      font-weight: 700;
+      letter-spacing: -3px;
+      color: #fff;
+      margin-top: 0;
+   }
+
+   h4 {
+      color: #fff;
+
+   }
+
+   a {
+      margin-top: 10px;
+   }
+
+   .btn-info {
+      background-color: $comp-color;
+      border-color: $comp-color;
+   }
+}
+
+.banner-text {
+   text-align: center;
+}
+
+
+/***************************************/
+/*=========     HISTORIA     =========*/
+/*************************************/
+
+#historia {
+   padding-top: 50px;
+
+   h2 {
+      color: $main-color;
+      font-family: $second-font;
+      font-size: 60px;
+      text-align: center;
+      letter-spacing: -3px;
+      font-weight: 700;
+   }
+}
+
+.historia-box {
+   margin-top: 20px;
+   padding: 50px;
+
+   h3 {
+      font-family: $third-color;
+      font-weight: 700;
+      font-size: 40px;
+      color: $main-color;
+   }
+
+   h4 {
+      font-family: $second-font;
+      font-weight: 300;
+      font-size: 24px;
+      color: $main-color;
+   }
+
+   img {
+      width: 100%;
+   }
+}
+
+
+/****************************************/
+/*=========     SURFERS     =========*/
+/**************************************/
+
+#surfers {
+   .surfer-left {
+      padding: 0;
+      background-color: rgb(198, 3, 3);
+      h2 {
+         margin-top: -120px;
+         font-size: 60px;
+         line-height: 58px;
+         font-family: $second-font;
+         font-weight: 700;
+         letter-spacing: -3px;
+         color: #fff;
+         text-transform: uppercase;
+         span {
+            font-weight: 300;
+         }
+      }
+      h3 {
+         padding: 25px;
+         font-size: 18px;
+         color: #fff;
+         font-weight: 300;
+      }
+   }
+
+   .surfer-right {
+      padding: 0;
+      background-color: rgb(255, 153, 0);
+      h2 {
+         margin-top: -120px;
+         font-size: 60px;
+         line-height: 58px;
+         font-family: $second-font;
+         font-weight: 700;
+         letter-spacing: -3px;
+         color: #fff;
+         text-transform: uppercase;
+         span {
+            font-weight: 300;
+         }
+      }
+      h3 {
+         padding: 25px;
+         font-size: 18px;
+         color: #fff;
+         font-weight: 300;
+      }
+   }
+
+   .surfer-left-img img, .surfer-right-img img, {
+      width: 100%;
+   }
+}
+
+
+/***************************************/
+/*=========     SPOTS     =========*/
+/*************************************/
+
+#Spots {
+   padding-top: 50px;
+   h2 {
+      color: $main-color;
+      font-family: $second-font;
+      font-size: 60px;
+      text-align: center;
+      letter-spacing: -3px;
+      font-weight: 700;
+   }
+   h3 {
+      color: $main-color;
+      font-family: $main-font;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: 300;
+      text-transform: uppercase;
+   }
+   img {
+         width: 100%;
+	}
+   h4 {
+         color: #fff;
+   	   font-style: tahoma;
+   	   font-size: 20px;
+   	   font-family: $second-font;
+         margin-top: 20px;
+   	   margin-bottom: 20px;
+   }
+   p {
+         color: #fff;
+   	   font-weight: 600;
+   	   font-size: 16px;
+         line-height: 20px;
+   	   font-family: $second-font;
+   	   margin-bottom: 25px;
+         font-weight: 300;
+   }
+   .spots-box {
+         margin-top: 25px;
+         margin-bottom: 25px;
+   		padding: 10px 10px;
+   		background-color: $rojo;
+	}
+}
+
+/****************************************/
+/*=========     TRIPS    =========*/
+/**************************************/
+
+#Trips {
+   padding: 30px 0;
+   background-image: url(../images/Surf.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   padding: 150px 0 50px;
+   h2 {
+	color: #06157d;
+	font-style: tahoma;
+	font-size: 60px;
+	font-family: $second-font;
+	margin-bottom: 50px;
+   }
+   h4 {
+   		color: #090101;
+   		font-style: tahoma;
+   		font-size: 25px;
+   		font-family: $second-font;
+   		margin-bottom: 20px;
+   	}
+
+   .btn-GO {
+   		text-align: right;
+   		font-size: 18px;
+   		color: black !important;
+   		letter-spacing: 1px;
+   	   text-transform: uppercase;
+   	   font-family: $second-font;
+   	   border-color: rgb(4, 121, 16);
+   	&:hover {
+   	   color: red !important;
+   		}
+   	}
+}
+
+/**************************************/
+/*=========     CONTACT     =========*/
+/************************************/
+.main-Contact{
+   padding: 30px 0;
+.container{
+		max-width: 1200px;
+		/*border: dashed 3px rgb(18, 147, 58);*/
+	}
+.form-control{
+		display: block;
+   	width: 100%;
+		color: #FFFFFF;
+		background-color: black;
+   }
+textarea{
+		height: 160px;
+		outline: none;
+	}
+.btn-ENVIAR{
+		text-decoration: none;
+		background-color: #1e697a;
+		width: 100px;
+		line-height: 10px;
+		display: inline-block;
+		text-align: center;
+		border-radius: 5px;
+		transition: 450ms;
+	}
+
+.btn-ENVIAR:hover{
+		background-color: #0ba22c;
+		width: 120px;
+		color: #000;
+	}
+}
+
+
+/****************************************/
+/*=========     FOOTER     =========*/
+/**************************************/
+
+#footer {
+   background-color: $main-color;
+
+   p {
+      font-family: $second-font;
+      font-size: 14px;
+      color: $third-color;
+   }
+
+   .mail {
+      margin-top: 55px;
+      font-weight: 300;
+   }
+
+   .dato, .dato2 {
+      margin-top: -10px;
+      font-weight: 700;
+   }
+
+   .mail2 {
+      margin-top: 20px;
+   }
+
+   .redes {
+      font-size: 32px;
+      color: $third-color;
+      margin-top: 85px;
+      i {
+         padding-right: 10px;
+      }
+   }
+
+   .logo-footer {
+      padding: 25px 0 15px;;
+   }
+
+}
